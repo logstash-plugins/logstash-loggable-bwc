@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name            = 'logstash-loggable-bwc'
-  s.version         = '1.0.0'
+  s.version         = ::File.read('version').split("\n").first
   s.licenses        = ['Apache-2.0']
   s.summary         = "Backward compatibility for the Loggable mixin which is not available on Logstash 2.4.1"
   s.description     = "This gem is a dependency for a Logstash plugin. This gem is not a stand-alone program"
